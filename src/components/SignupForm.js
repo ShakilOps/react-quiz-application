@@ -16,7 +16,7 @@ export default function SignupForm() {
   const [error, setError] = useState();
   const [loading, setLoading] = useState();
 
-  const { signup }  = useAuth();
+  const { signup } = useAuth();
   const history = useHistory();
 
   async function handleSubmit(e) {
